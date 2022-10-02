@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Outfit', sans-serif;
   text-align: center;
   background-color: var(--lightGrey);
@@ -29,7 +29,7 @@ main {
   flex-direction: column;
   align-items: center;
   max-width: 375px;
-  height: 80vh;
+  max-height: 75%;
   border-radius: 20px;
   background-color: var(--white);
 }
@@ -58,4 +58,14 @@ p {
   font-size: 15px;
   margin-bottom: 10px;
   color: var(--grayishBlue);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
 }
